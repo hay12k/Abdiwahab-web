@@ -95,7 +95,7 @@
 	    	display: block;
 	    }
 	    .nav-link {
-	    	position: absolute;
+	    	position: fixed;
 	    	background: #f44336;
 	    	height: 100vh;
 	    	width:200px;
