@@ -12,9 +12,9 @@ rel="stylesheet">
 <body>
     <section class="sub-header">
     	<nav>
-    		<a href="index.htm"><img src="images/A.PNG"></a>
-    		<div class="nav-link" id="nav-link">
-    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    		<a href="index.htm"><img src="images/hayaan.PNG"></a>
+    		<div class="nav-link" id="navlink">
+    			<i class="fa fa-times" onclick="hideMenu()"></i>
     			<ul>
     				<li><a href="index.html">HOME</a></li>
             <li><a href="About.html">ABOUT</a></li>
@@ -23,7 +23,7 @@ rel="stylesheet">
             <li><a href="Contact.html">CONTTACT</a></li>
     			</ul>
     		</div>	
-    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    		<i class="fa fa-bars" onclick="showMenu()"></i>
     	</nav>
 
     	<h1>Contact Us</h1>
@@ -95,16 +95,15 @@ rel="stylesheet">
 
     <!--javascript for toggle menu-->		
    <script type="text/javascript">
-   var nav-link = document.getElementsByTagName('nav-link')
-   function showmenu() {
-   	nav-link.style.right="0"
+   var navlink = document.getElementById("navlink");
+   function showMenu() {
+   	navlink.style.right ="0";
 
    	// body...
    }
     
- var nav-link = document.getElementsByTagName('nav-link')
-   function showhidemenu() {
-   	nav-link.style.right="-200px"
+   function hideMenu() {
+   	navlink.style.right="-200px";
 
    	// body...
    }
