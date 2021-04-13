@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website Design - UOB</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    	<nav>
+    		<a href="index.htm"><img src="images/A.PNG"></a>
+    		<div class="nav-link" id="nav-link">
+    			<i class="fa fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    				<li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="Contact.html">CONTTACT</a></li>
+    			</ul>
+    		</div>	
+    		<i class="fa fa-bars" onclick="showmenu()"></i>
+    	</nav>
+
+    	<h1>Contact Us</h1>
+
+    </section>
+    <!---contact Us --->
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31303.01488354466!2d49.16521292046397!3d11.27046123718695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d96918aac9aa7f3%3A0x6e8f68a7e697e656!2sBosaso!5e0!3m2!1sen!2sso!4v1618220793862!5m2!1sen!2sso" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      
+    </section>
+    <section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa fa-home" ></i>
+        <span>
+          <h5>30th street,at the presidency</h5>
+          <p>Bosaso,Bari</p>
+        </span>
+     </div>
+     <div>
+        <i class="fa fa-phone" ></i>
+        <span>
+          <h5>+252907740388</h5>
+          <p>monday to saturday, 10Am to 6pm</p>
+        </span>
+     </div>
+     <div>
+        <i class="fa fa-envelope-o" ></i>
+        <span>
+           <h5>abdiwahababdirizak88@gmail.com</h5>
+           <p>Email us your contact</p>
+        </span>
+     </div>
+        <div class="cntact-col">
+
+          <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter email address" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="message"></textarea>
+            <button type="submit"class="hero-btn red-btn">Send message</button>
+          </form>
+      
+        </div>
+  </div>
+  </div>  
+</section>
+
+   
+<!---Footer--->
+<section class="Footer">
+	<h4>About Us</h4>
+	<p>making website is the one of easiest thing in the world. You just need only to learn HTML,CSS,Javascript and you are good to go</p>
+	<div class="icons">
+		<i class="fa fa-facebook" ></i>
+		<i class="fa fa-twitter" ></i>
+		<i class="fa fa-instagram" ></i>
+		<i class="fa fa-linkedin" ></i>
+	</div>
+	<p>create with <i class="fa fa-heart-o" ></i>by Abdiwahab</p>
+</section>
+
+
+
+
+
+
+
+    <!--javascript for toggle menu-->		
+   <script type="text/javascript">
+   var nav-link = document.getElementsByTagName('nav-link')
+   function showmenu() {
+   	nav-link.style.right="0"
+
+   	// body...
+   }
+    
+ var nav-link = document.getElementsByTagName('nav-link')
+   function showhidemenu() {
+   	nav-link.style.right="-200px"
+
+   	// body...
+   }
+
+</script>
+
+</body>
+</html>
